@@ -116,5 +116,58 @@ section {
     line-height: 3rem;
     color: dimgray;
     margin-bottom: 1rem;
+    text-transform: none;
+    padding-right:2rem ;
 }
 
+/************************ EXPERENCES SECTION **************/
+
+.experience {
+    background: url(../img/exp-bg.png) no-repeat left;
+    margin-top: 5rem;
+}
+
+.experience h1 {
+    font-size: 4.5rem;
+}
+
+.experience .content-container  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.experience .content-container .content {
+    flex: 1 1 30rem;
+    width: 100%;
+    box-shadow: 1rem 1.5rem 4rem gray;
+    padding: 4rem;
+}
+
+.experience .content-container .content h2 {
+    font-size: 4.5rem;
+}
+
+.experience .content-container .content h3 {
+    font-size: 2.5rem;
+    color: orange;
+    margin: 1.5rem 0;
+}
+
+.experience .content-container .content p {
+    font-size: 1.7rem;
+    color: dimgray;
+    line-height: 3rem;
+    text-transform: none;
+    margin-top: 2rem;
+
+}
+
+.copy {
+    margin-top: 15rem;
+    color: dimgray;
+    font-size:1.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
