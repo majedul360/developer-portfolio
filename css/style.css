@@ -35,6 +35,7 @@ section {
     display:flex;
     flex-wrap: wrap;
     gap: 3rem;
+
 }
 
 .home .content {
@@ -76,3 +77,44 @@ section {
 .home img {
     width: 100%;
 }
+
+/******************** DREAM SECTION ******************/
+
+.dream {
+    background: url(../img/dream-bg.png) no-repeat right;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.dream .img {
+        flex: 1 1 45rem;
+}
+
+.dream .img img{
+    width: 100%;
+}
+
+
+.dream .content {
+    flex: 1 1 45rem;
+    padding-right: 2rem;
+}
+
+.dream .content h1 {
+    font-size: 4.5rem;
+    margin-top: 5rem;
+}
+
+.dream .content h3 {
+    font-size:2rem;
+    margin: 2rem 0;
+}
+
+.dream .content p {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: dimgray;
+    margin-bottom: 1rem;
+}
+
