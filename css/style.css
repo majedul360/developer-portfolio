@@ -145,6 +145,20 @@ section {
     padding: 4rem;
 }
 
+
+
+.experience .content-container .content:nth-child(1){
+    border-left: 1rem solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+.experience .content-container .content:nth-child(2){
+    border-left: 1rem solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
 .experience .content-container .content h2 {
     font-size: 4.5rem;
 }
